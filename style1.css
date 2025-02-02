@@ -1,0 +1,29 @@
+head {
+   
+    scroll-behavior: smooth;
+}
+header{
+    background-color: black;
+}
+body {
+    background:lightblue;
+    font-family: "baloo Tamaa 2", cursive;
+}
+.navigation-link {
+    border: 2px solid transparent;
+}
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 3px solid white;
+    transition: 0.5 ease;
+}
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.avif');
+        background-attachment: fixed;
+        background-size: cover;
+}

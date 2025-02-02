@@ -28,9 +28,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('slider\ 1.jpg');
-    background-attachment: fixed;
-    background-size: cover;
+.main-container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('slider\ 1.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
 }
 
 /* Aligning items in main row */
